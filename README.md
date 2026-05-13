@@ -15,7 +15,7 @@ I believe that by mastering a strongly-typed, object-oriented language like Java
 Before diving into Java syntax, I am mastering the fundamentals of logic using **VisuAlg** (structured Portuguese).
 - [x] Basic Variables & Data Types
 - [x] Conditional Structures (If/Else)
-- [ ] Loops (For/While)
+- [x] Loops (For/While)
 - [ ] Arrays & Matrices (Current Focus)
 - [ ] Logic Challenges & Problem Solving
 
