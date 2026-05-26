@@ -19,6 +19,15 @@ Before diving into Java syntax, I am mastering the fundamentals of logic using *
 - [ ] Arrays & Matrices (Current Focus)
 - [ ] Logic Challenges & Problem Solving
 
+> [!NOTE]
+> **Deep Dive: The "Nested Loop" Challenge**
+> 
+> I've dedicated the last 4 days exclusively to mastering **Nested For-Loops** and **Data Accumulators**. 
+>
+> **Why?** Because during practice, I hit a significant wall with logic nesting—specifically managing local vs. global variables and understanding the flow of "loops within loops." It was frustrating, but I refused to move forward with "shaky" foundations. 
+>
+> **The Result:** By slowing down and rebuilding logic patterns (from simple grids to dynamic billing systems), I've solidified my understanding of how data flows through nested structures. This resilience is core to my path as a future Backend Developer.
+
 ## Next Steps
 1.  **Finish Algorithm Fundamentals** (May/June 2026)
 2.  **Begin Java Backend Path** (Focusing on OOP & Spring Boot)
