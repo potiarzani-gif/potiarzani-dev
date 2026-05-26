@@ -20,7 +20,7 @@ Before diving into Java syntax, I am mastering the fundamentals of logic using *
 - [ ] Logic Challenges & Problem Solving
 
 > [!NOTE]
-> **Deep Dive: The "Nested Loop" Challenge**
+> **Deep Dive: The "Nested Loop" Challenge (May 23 - May 26, 2026)**
 > 
 > I've dedicated the last 4 days exclusively to mastering **Nested For-Loops** and **Data Accumulators**. 
 >
