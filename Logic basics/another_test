@@ -1,0 +1,12 @@
+Algoritmo WhosIsYourHusband 
+var
+    Name1: Caractere
+Inicio  
+    Escreva ("Enter his name: ")
+    Leia (Name1)
+    Se (Name1 = "Luiz Gustavo") entao
+        Escreva ("This is your beautiful husband")
+    Senao
+        Escreva ("This is not your husband, and you should be ashamed of yourself!")
+    FimSe
+FimAlgoritmo

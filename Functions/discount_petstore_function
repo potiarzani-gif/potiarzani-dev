@@ -7,11 +7,11 @@ var
     discount_value: real
 Inicio 
     Se (Total >= 100) entao
-         res <- Total * 0.35
+         Discount <- Total * 0.35
       Senao
-         res <- Total * 0.15
+         Discount <- Total * 0.15
       FimSe
-      Retorne res
+    Retorne Discount
 FimFuncao
 
 Inicio 
