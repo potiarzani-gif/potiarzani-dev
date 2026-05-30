@@ -1,0 +1,21 @@
+Algoritmo "factorial_calculation"
+//The factorial of a natural number (represented by the exclamation point !)
+// is the result of multiplying that number by all its predecessors greater than or equal to 1.
+var
+    N, F: inteiro
+Funcao Factorial (V: inteiro): inteiro
+Var
+    C, R: Inteiro
+Inicio
+    R <- 1
+    Para C<- 1 ate V faca 
+    R <- R * C
+    FimPara
+    Retorne R
+FimFuncao
+Inicio
+    Escreva ("Enter a number: ")
+    Leia (N)
+    F <- Factorial (N)
+    EscrevaL ("The value of", N, "! equals to ", F)
+FimAlgoritmo
