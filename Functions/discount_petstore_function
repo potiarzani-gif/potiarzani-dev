@@ -1,0 +1,33 @@
+Algoritmo  "discount_petstore_function" 
+Var
+    Quantity: inteiro   
+    Price, Total, Final_Price: real
+Funcao Discount (Total: real): real
+var
+    discount_value: real
+Inicio 
+    Se (Total >= 100) entao
+         res <- Total * 0.35
+      Senao
+         res <- Total * 0.15
+      FimSe
+      Retorne res
+FimFuncao
+
+Inicio 
+    Escreval (" ------ Cute Cat Pet Store ------  ")
+    Escreva ("Enter quantity of itens purchased: ")
+    Leia (Quantity)
+    Para I de 1 ate Quantity faca
+        Escreva ("Enter price of item ", I, ": ")
+        Leia (Price)
+        Total <- Total + Price
+    fimPara
+    discount_value <- Discount(Total)
+    Final_Price <- Total - discount_value
+    EscrevaL (" --------- RECEIPT --------- ")
+    Escreval ("Total price without discount: ", Total)
+    Escreval ("Discount applied: ", discount_value)
+    Escreval ("Total price after discount: ", Final_Price)
+    Escreval ("Thank you for shopping at Cute Cat Pet Store!")
+FimAlgoritmo
