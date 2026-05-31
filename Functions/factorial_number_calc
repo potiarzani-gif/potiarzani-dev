@@ -8,7 +8,7 @@ Var
     C, R: Inteiro
 Inicio
     R <- 1
-    Para C<- 1 ate V faca 
+    Para C de 1 ate V faca 
     R <- R * C
     FimPara
     Retorne R
@@ -17,5 +17,5 @@ Inicio
     Escreva ("Enter a number: ")
     Leia (N)
     F <- Factorial (N)
-    EscrevaL ("The value of", N, "! equals to ", F)
+    EscrevaL ("The value of ", N, "! equals to ", F)
 FimAlgoritmo

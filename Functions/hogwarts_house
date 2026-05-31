@@ -1,0 +1,43 @@
+Algoritmo "hogwarts_house_function_IF_WHILE"
+var
+    DRINK, SPOT, SUBJECT, HEX: INTEIRO
+    House: Caractere
+Funcao SortingHat(D, Sp, Sub, Hx: Inteiro):caractere
+Inicio
+    se (D = 1) e (Sp = 1) e (Sub = 3) e (Hx = 1) entao
+        Retorne "HUFFLEPUFF!"
+    senao
+        se (D = 2) e (Sp = 2) e (Sub = 1) e (Hx = 3) entao
+        Retorne "RAVENCLAW!"
+        senao
+            se (D = 3) e (Sp = 4) e (Sub = 4) e (Hx = 2) entao
+            Retorne "GRIFFYNDOR!"
+            senao
+                se (D = 4) e (Sp = 3) e (Sub = 2) e (Hx = 4) entao
+                Retorne "SLYTHERIN!"
+                Senao 
+                Retorne " INVALID!"
+                fimse
+            fimse
+        fimse
+    fimse
+FimFuncao
+inicio
+    EscrevaL ("-------  VIRTUAL SORTING HAT --------")
+    EscrevaL ("Please, answer following questions honestly!")
+    EscrevaL ("What's your favorite drink? =>")
+    Escreva ("[1] Gillywater [2] Pumpkin Juice [3] Butterbeer [4] Firewhisky =>")
+    Leia (DRINK)
+    EscrevaL ("What's your favorite magical spot?")
+    Escreva ("[1] Hogsmead [2] Diagon Alley [3] Knockturn Alley [4] Hogwarts =>")
+    Leia (SPOT)
+    EscrevaL ("What's your favorite school subject?")
+    Escreva ("[1] Charms [2] Potions [3] Herbology [4] Defense Agains the Dark Arts =>")
+    Leia (SUBJECT)
+    EscrevaL ("Wich is your prefered spell?")
+    Escreva ("[1] Stupefy [2] Expecto Patronum [3] Portus [4] Sectumsempra =>")
+    Leia (HEX)
+    House <- SortingHat (DRINK, SPOT, SUBJECT, HEX)
+    EscrevaL ("")
+    EscrevaL (House)
+fimalgoritmo

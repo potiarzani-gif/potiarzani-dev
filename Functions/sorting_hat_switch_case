@@ -1,0 +1,45 @@
+Algoritmo "sorting_hat_switch_case"
+var
+    DRINK, SPOT, SUBJECT, HEX: INTEIRO
+    House: Caractere
+Funcao SortingHat(D: Inteiro, Sp: Inteiro, Sbj: Inteiro, Hx: Inteiro): caractere
+var
+    Combo: inteiro
+Inicio
+    Combo <- (D * 1000) + (Sp * 100) + (Sbj * 10) + Hx
+    // --- DEBUG SECTION ---
+    // EscrevaL("D: ", D, " Sp: ", Sp, " Sbj: ", Sbj, " Hx: ", Hx)
+    // EscrevaL("DEBUG - the combo value is: ", Combo)
+    // ----------------------
+    Escolha Combo
+        Caso 1131
+            Retorne "HUFFLEPUFF!"
+        Caso 2213
+            Retorne "RAVENCLAW!"
+        Caso 3442
+            Retorne "GRIFFYNDOR!"
+        Caso 4324
+            Retorne "SLYTHERIN!"
+        outrocaso
+            Retorne "Maybe you are a muggle!"
+        FimEscolha
+FimFuncao
+inicio
+    EscrevaL ("-------  VIRTUAL SORTING HAT --------")
+    EscrevaL ("Please, answer following questions honestly!")
+    EscrevaL ("What's your favorite drink? =>")
+    Escreva ("[1] Gillywater [2] Pumpkin Juice [3] Butterbeer [4] Firewhisky =>")
+    Leia (DRINK)
+    EscrevaL ("What's your favorite magical spot?")
+    Escreva ("[1] Hogsmead [2] Diagon Alley [3] Knockturn Alley [4] Hogwarts =>")
+    Leia (SPOT)
+    EscrevaL ("What's your favorite school subject?")
+    Escreva ("[1] Charms [2] Potions [3] Herbology [4] Defense Agains the Dark Arts =>")
+    Leia (SUBJECT)
+    EscrevaL ("Wich is your prefered spell?")
+    Escreva ("[1] Stupefy [2] Expecto Patronum [3] Portus [4] Sectumsempra =>")
+    Leia (HEX)
+    House <- SortingHat (DRINK, SPOT, SUBJECT, HEX)
+    EscrevaL ("")
+    EscrevaL (House)
+fimalgoritmo
