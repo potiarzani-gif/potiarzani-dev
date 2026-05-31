@@ -19,10 +19,10 @@ Input provided: DRINK=4, SPOT=3, SUBJECT=2, HEX=4
 
 Result inside function: D=4, Sp=4, Sbj=4, Hx=4 (leading to an incorrect "Muggle" result).
 
-**Debugging**
+- **Debugging**
 I implemented a Debug Print to monitor the values as they entered the function. This allowed me to see exactly where the data was being corrupted, confirming that the logic was sound but the environment was failing.
 
-**The Solution**
+- **The Solution**
 The fix involved switching to Explicit Individual Typing. By declaring each parameter separately:
 Funcao SortingHat(D: Inteiro, Sp: Inteiro, Sbj: Inteiro, Hx: Inteiro)
 
